@@ -37,13 +37,22 @@ const Experience = () => {
           }}
         >
           <Circle1> {/* <img src={logo1} alt="logo"></img>{" "} */}</Circle1>
-          <h1>Web Developer Intern</h1>
-          <h2>edunet foundation </h2>
-          <h3> February 10, 2025 - March 21, 2025</h3>
+     
+             <h1> Software Developer Intern</h1>
+                 <h2>Inforida</h2>
+          <h3>   July 14, 2025 - Oct 14, 2025</h3>
+        
+            <a href="https://inforida.com/" target="_blank">Inforida</a>
+         
           <motion.p style={{ display: isClicked1 && "contents" }}>
-         I built a food delivery web application similar to Zomato with a clean, responsive, and user-friendly interface. The app includes features like restaurant listings, food menus, add-to-cart functionality, and order management.
+       
+I worked as a Developer Intern at Inforida,
+        where I helped build the company’s website and worked on their School ERP–based product. 
+        I used Angular to develop a fast, responsive, and user-friendly application that works smoothly on mobile, tablet, and web devices.
 
-I used React and JavaScript to build the frontend and handle user interactions. For managing application state across different users, I used Redux. The project focuses on performance, smooth navigation, and reusable React components to create a fast and scalable user experience.
+During my internship, I focused on creating reusable components and writing clean,
+ maintainable code. I also worked on improving UI performance and ensuring the application provides a consistent experience across different screen sizes.
+  This experience helped me strengthen my frontend skills and understand how real-world products are developed and maintained.
           </motion.p>
         </Experience1>
         <Border></Border>
@@ -55,18 +64,15 @@ I used React and JavaScript to build the frontend and handle user interactions. 
           }}
         >
           <Circle2>{/* <img src={image} alt="logo"></img>{" "} */}</Circle2>
-          <h1> Software Developer Intern</h1>
-          <h2>Inforida</h2>
-          <h3>   July 14, 2025 - Oct 14, 2025</h3>
+        <h1>Web Developer Intern</h1>
+          <h2>edunet foundation </h2>
+          <h3> February 10, 2025 - March 21, 2025</h3>
           <p style={{ display: isClicked2 && "contents" }}>
-       I worked as a Developer Intern at Inforida,
-        where I helped build the company’s website and worked on their School ERP–based product. 
-        I used Angular to develop a fast, responsive, and user-friendly application that works smoothly on mobile, tablet, and web devices.
+     I built a food delivery web application similar to Zomato with a clean, responsive, and user-friendly interface. The app includes features like restaurant listings, food menus, add-to-cart functionality, and order management.
 
-During my internship, I focused on creating reusable components and writing clean,
- maintainable code. I also worked on improving UI performance and ensuring the application provides a consistent experience across different screen sizes.
-  This experience helped me strengthen my frontend skills and understand how real-world products are developed and maintained.
+I used React and JavaScript to build the frontend and handle user interactions. For managing application state across different users, I used Redux. The project focuses on performance, smooth navigation, and reusable React components to create a fast and scalable user experience.
           </p>
+          
         </Experience2>
       </ExperiencesWrapper>
     </Wrapper>
